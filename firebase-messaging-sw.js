@@ -1,37 +1,3 @@
-// importScripts(
-//   "https://www.gstatic.com/firebasejs/10.10.0/firebase-app-compat.js"
-// );
-// importScripts(
-//   "https://www.gstatic.com/firebasejs/10.10.0/firebase-messaging-compat.js"
-// );
-// importScripts("https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js");
-// importScripts(
-//   "https://www.gstatic.com/firebasejs/8.10.0/firebase-messaging.js"
-// );
-// firebase.initializeApp({
-//   apiKey: "AIzaSyBp3LgzrD1Mj34b4goEwNKwkWwTB3gpg-o",
-//   authDomain: "push-e0dde.firebaseapp.com",
-//   projectId: "push-e0dde",
-//   storageBucket: "push-e0dde.firebasestorage.app",
-//   messagingSenderId: "1062375359306",
-//   appId: "1:1062375359306:web:72bc85e9ac72de480977b3",
-// });
-
-// const messaging = firebase.messaging();
-
-// messaging.onBackgroundMessage(function (payload) {
-//   // App/browser is closed: show system notification
-//   const notificationTitle = payload.notification.title;
-//   const notificationOptions = {
-//     body: payload.notification.body,
-//   };
-//   self.registration.showNotification(notificationTitle, notificationOptions);
-// });
-
-// Give the service worker access to Firebase Messaging.
-// Note that you can only use Firebase Messaging here. Other Firebase libraries
-// are not available in the service worker.
-// Replace 10.13.2 with latest version of the Firebase JS SDK.
 importScripts(
   "https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"
 );

@@ -1,0 +1,2 @@
+try{let e=typeof window<"u"?window:typeof global<"u"?global:typeof globalThis<"u"?globalThis:typeof self<"u"?self:{},s=new e.Error().stack;s&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[s]="f5e5ef23-239c-45ce-842b-560ade904968",e._sentryDebugIdIdentifier="sentry-dbid-f5e5ef23-239c-45ce-842b-560ade904968")}catch{}const o="/assets/login_image-CDLGmBmV.svg",n="/assets/roleLogo-BYoQNPTz.svg";export{o as l,n as r};
+//# sourceMappingURL=roleLogo-Bnp1wLQi.js.map
